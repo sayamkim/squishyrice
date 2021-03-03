@@ -15,14 +15,3 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(document.createElement('div')),
   )
 })
-
-const Goodbye = props => (
-  <div>Goodbye {props.name}!</div>
-)
-
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Goodbye name="Sayam" />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
