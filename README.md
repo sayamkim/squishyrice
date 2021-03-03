@@ -1,3 +1,3 @@
 ## squishy rice
 
-Rails backend/React frontend
+Rails backend/React + Rails frontend
