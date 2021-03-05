@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  root 'home#home'
+
+  get 'welcome', to: 'welcome#index'
+  
   resources :posts
-  root 'welcome#index'
 
   get 'design', to: 'designs#index'
   get 'design/frontend-mentor', to: 'designs#frontend_mentor'

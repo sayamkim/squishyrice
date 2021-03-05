@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  &-col {
+    flex-direction: column;
+  }
+}
+
+// Margin 1em is being added by Trix editor on all <p> tags, requires a reset.
+p {
+  margin: 0;
+}
