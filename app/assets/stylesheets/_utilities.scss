@@ -24,12 +24,12 @@ body {
   }
 }
 
-// Margin 1em is being added by Trix editor on all <p> tags, requires a reset.
+// Margin 1em is being added by Trix editor on all <p> tags, requires a reset
 p {
   margin: 0;
 }
 
-// 
+// Place elements to right-justified within Flexbox
 .right {
   margin-left: auto;
 }
