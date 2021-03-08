@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :posts
 
   get 'design', to: 'designs#index'
-  get 'design/frontend-mentor', to: 'designs#frontend_mentor'
+  get 'design/mentor', to: 'designs#mentor'
   get 'design/site-clones', to: 'designs#site_clones'
   get 'design/svg-playground', to: 'designs#svg_playground'
 
