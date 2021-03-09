@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get 'projects/data-viz', to: 'projects#data_viz'
   get 'projects/api-playground', to: 'projects#api_playground'
   get 'projects/app-ui', to: 'projects#app_ui'
+
+  get 'design/mentor/profile-card-component', to: 'mentor#profile_card_component'
 end

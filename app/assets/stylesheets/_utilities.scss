@@ -17,13 +17,6 @@ body {
   width: 100%;
 }
 
-.flex {
-  display: flex;
-  &-col {
-    flex-direction: column;
-  }
-}
-
 // Margin 1em is being added by Trix editor on all <p> tags, requires a reset
 p {
   margin: 0;
