@@ -17,8 +17,8 @@ body {
   width: 100%;
 }
 
-// Margin 1em is being added by Trix editor on all <p> tags, requires a reset
-p {
+// Margin 1em is being added by Trix editor on multiple formatting tags, requires a reset
+p, h1 {
   margin: 0;
 }
 
