@@ -3,29 +3,33 @@
   width: 350px;
   background-color: #FFF;
   border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   &-box {
     position: relative;
     height: 720px;
     width: 1440px;
     background-color: #19A2AE;
+    z-index: -10;
+    overflow: hidden;
   }
   &-bg-pattern-top {
     position: absolute;
     height: 978px;
     width: 978px;
-    top: -509px;
-    left: -285px;
-    background-image: url(bg-pattern-top.svg);
-    z-index: 0;
+    display: block;
+    // top: -509px;
+    // left: -285px;
+    // background-image: url(bg-pattern-top.svg);
+    z-index: -1;
   }
   &-bg-pattern-bottom {
     position: absolute;
     height: 978px;
     width: 978px;
-    top: 376px;
-    right: -230px;
-    background-image: url(bg-pattern-bottom.svg);
-    z-index: 0;
+    // top: 376px;
+    // right: -230px;
+    // background-image: url(bg-pattern-bottom.svg);
+    z-index: -1;
   }
   &-card-bg-pattern {
     height: 140px;
@@ -68,7 +72,25 @@
   &-copy-city {
     font-family: 'KumbhSans Regular', sans-serif;
     font-size: 14px;
-    color: #969696;
+    color: #676769;
     padding-top: 12px;
+  }
+  &-copy-stats {
+    width: 300px;
+    padding-top: 45px;
+  }
+  &-copy-stats-col {
+    flex-grow: 1;
+  }
+  &-copy-stats-top {
+    font-family: 'KumbhSans Bold', sans-serif;
+    padding-bottom: 5px;
+    letter-spacing: .25px;
+  }
+  &-copy-stats-bottom {
+    font-family: 'KumbhSans Regular', sans-serif;
+    font-size: 10px;
+    color: #676769;
+    letter-spacing: 1.25px;
   }
 }
