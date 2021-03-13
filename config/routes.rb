@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   get 'projects/app-ui', to: 'projects#app_ui'
 
   get 'design/mentor/profile-card-component', to: 'mentor#profile_card_component'
+  get 'design/mentor/faq-accordion-card', to: 'mentor#faq_accordion_card'
 end
