@@ -96,12 +96,26 @@
 }
 
 .faq-accordion-card {
+  height: 511px;
+  width: 922px;
+  border-radius: 22px;
+  background-color: #FFF;
+  z-index: -10;
   &-box {
     position: relative;
     height: 720px;
     width: 1440px;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    z-index: -10;
+    z-index: -20;
     overflow: hidden;
+  }
+  &-svg-main {
+    position: absolute;
+    display: block;
+  }
+  &-svg-bg {
+    position: absolute;
+    display: block;
+    z-index: -1;
   }
 }
