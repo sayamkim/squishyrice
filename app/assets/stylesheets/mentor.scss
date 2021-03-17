@@ -17,18 +17,12 @@
     height: 978px;
     width: 978px;
     display: block;
-    // top: -509px;
-    // left: -285px;
-    // background-image: url(bg-pattern-top.svg);
     z-index: -1;
   }
   &-bg-pattern-bottom {
     position: absolute;
     height: 978px;
     width: 978px;
-    // top: 376px;
-    // right: -230px;
-    // background-image: url(bg-pattern-bottom.svg);
     z-index: -1;
   }
   &-card-bg-pattern {
@@ -117,5 +111,47 @@
     position: absolute;
     display: block;
     z-index: -1;
+  }
+  &-svg-icon {
+    position: absolute;
+    display: block;
+    z-index: 1;
+  }
+  &-copy {
+    padding-right: 80px;
+    padding-top: 74px;
+    &-title {
+      font-family: 'KumbhSans Bold', sans-serif;
+      font-size: 33px;
+      color: #4A4B5E;
+      padding-bottom: 25px;
+    }
+    &-body {
+      width: 340px;
+      font-family: 'KumbhSans Regular', sans-serif;
+      font-size: 14px;
+      color: #4A4B5E;
+      padding: 16px 0 16px 0;
+      border-bottom: 1px solid #787887;
+    }
+    &-body-inset {
+      width: 340px;
+      font-family: 'KumbhSans Regular', sans-serif;
+      font-size: 12px;
+      color: #787887;
+      line-height: 150%;
+      padding: 0 0 16px 0;
+      border-bottom: 1px solid #787887;
+    }
+    &-body-bold {
+      width: 340px;
+      font-family: 'KumbhSans Bold', sans-serif;
+      font-size: 14px;
+      color: #4A4B5E;
+      padding: 16px 0 14px 0;
+    }
+  }
+  &-down-arrow {
+    position: absolute;
   }
 }
