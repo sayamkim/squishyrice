@@ -17,18 +17,12 @@
     height: 978px;
     width: 978px;
     display: block;
-    // top: -509px;
-    // left: -285px;
-    // background-image: url(bg-pattern-top.svg);
     z-index: -1;
   }
   &-bg-pattern-bottom {
     position: absolute;
     height: 978px;
     width: 978px;
-    // top: 376px;
-    // right: -230px;
-    // background-image: url(bg-pattern-bottom.svg);
     z-index: -1;
   }
   &-card-bg-pattern {
@@ -156,5 +150,8 @@
       color: #4A4B5E;
       padding: 16px 0 14px 0;
     }
+  }
+  &-down-arrow {
+    position: absolute;
   }
 }

@@ -15,6 +15,7 @@ body {
 .container {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 // Margin 1em is being added by Trix editor on multiple formatting tags, requires a reset
