@@ -94,32 +94,25 @@
   width: 922px;
   border-radius: 22px;
   background-color: #FFF;
-  z-index: -10;
   &-box {
     position: relative;
     height: 720px;
     width: 1440px;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    z-index: -20;
-    overflow: hidden;
   }
   &-svg-main {
     position: absolute;
-    display: block;
   }
   &-svg-bg {
     position: absolute;
-    display: block;
-    z-index: -1;
   }
   &-svg-icon {
     position: absolute;
-    display: block;
-    z-index: 1;
   }
   &-copy {
     padding-right: 80px;
     padding-top: 74px;
+    z-index: 5;
     &-title {
       font-family: 'KumbhSans Bold', sans-serif;
       font-size: 33px;
@@ -133,6 +126,21 @@
       color: #4A4B5E;
       padding: 16px 0 16px 0;
       border-bottom: 1px solid #787887;
+      &-hover:hover {
+        color: red;
+      }
+    }
+    &-hover {
+      width: 340px;
+      font-family: 'KumbhSans Regular', sans-serif;
+      font-size: 14px;
+      color: #4A4B5E;
+      padding: 16px 0 16px 0;
+      border-bottom: 1px solid #787887;
+      &:hover {
+        color: #F47C57;
+        cursor: pointer;
+      }
     }
     &-body-inset {
       width: 340px;
@@ -154,4 +162,8 @@
   &-down-arrow {
     position: absolute;
   }
+}
+
+.hover-test:hover {
+  color: red;
 }
