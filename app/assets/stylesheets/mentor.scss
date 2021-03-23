@@ -10,7 +10,6 @@
     width: 1440px;
     background-color: #19A2AE;
     z-index: -10;
-    overflow: hidden;
   }
   &-bg-pattern-top {
     position: absolute;
@@ -126,9 +125,6 @@
       color: #4A4B5E;
       padding: 16px 0 16px 0;
       border-bottom: 1px solid #787887;
-      &-hover:hover {
-        color: red;
-      }
     }
     &-hover {
       width: 340px;
@@ -164,6 +160,11 @@
   }
 }
 
-.hover-test:hover {
-  color: red;
+.social-proof-section {
+  height: 800px;
+  width: 1440px;
+  &-top {
+    height: 200px;
+    width: 1000px;
+  }
 }
