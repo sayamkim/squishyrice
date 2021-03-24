@@ -166,5 +166,18 @@
   &-top {
     height: 200px;
     width: 1000px;
+    &-copy {
+      padding: 20px;
+    }
+    &-ratings {
+      padding: 20px;
+    }
+  }
+  &-bottom {
+    height: 200px;
+    width: 1000px;
+    &-cards {
+      padding: 20px;
+    }
   }
 }
