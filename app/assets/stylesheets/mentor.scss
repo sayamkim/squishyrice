@@ -173,9 +173,28 @@
       padding: 20px;
     }
   }
+  &-title {
+    width: 380px;
+    font-family: 'Spartan Bold', sans-serif;
+    font-size: 48px;
+    color: #502050;
+    line-height: 100.5%;
+    letter-spacing: -2px;
+    padding: 20px;
+  }
+  &-copy {
+    width: 430px;
+    font-family: 'Spartan Medium', sans-serif;
+    font-size: 15px;
+    color: #937B92;
+    line-height: 164.5%;
+    letter-spacing: -1.25px;
+    padding: 20px;
+  }
   &-bottom {
     height: 200px;
     width: 1000px;
+    margin-top: 80px;
     &-cards {
       padding: 20px;
     }
