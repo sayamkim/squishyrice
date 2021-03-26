@@ -170,7 +170,19 @@
       padding: 20px;
     }
     &-ratings {
-      padding: 20px;
+      width: 445px;
+      height: 56px;
+      background-color: #F7F2F7;
+      border-radius: 8px;
+      &-1 {
+        margin-bottom: 5px;
+      }
+      &-2 {
+        margin: 5px 10px 5px 10px
+      }
+      &-3 {
+
+      }
     }
   }
   &-title {
