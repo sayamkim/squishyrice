@@ -166,6 +166,7 @@
   &-top {
     height: 230px;
     width: 1110px;
+    margin-bottom: 75px;
     &-ratings {
       padding: 20px 0px;
       &-1 {
@@ -222,11 +223,27 @@
     letter-spacing: -1.25px;
   }
   &-bottom {
-    height: 200px;
-    width: 1000px;
-    margin-top: 80px;
-    &-cards {
-      padding: 20px;
+    height: 266px;
+    width: 1110px;
+    margin-top: 75px;
+    justify-content: space-between;
+    &-card-1 {
+      width: 350px;
+      height: 234px;
+      background-color: #502050;
+      border-radius: 8px;
+    }
+    &-card-2 {
+      width: 350px;
+      height: 234px;
+      background-color: #502050;
+      border-radius: 8px;
+    }
+    &-card-3 {
+      width: 350px;
+      height: 234px;
+      background-color: #502050;
+      border-radius: 8px;
     }
   }
 }
