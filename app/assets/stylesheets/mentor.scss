@@ -166,7 +166,7 @@
   &-top {
     height: 230px;
     width: 1110px;
-    margin-bottom: 75px;
+    // margin-bottom: 75px;
     &-ratings {
       padding: 20px 0px;
       &-1 {
@@ -223,10 +223,11 @@
     letter-spacing: -1.25px;
   }
   &-bottom {
+    position: relative;
     height: 266px;
     width: 1110px;
-    margin-top: 75px;
     justify-content: space-between;
+    margin-top: 75px;
     &-card-1 {
       width: 350px;
       height: 234px;
@@ -238,12 +239,15 @@
       height: 234px;
       background-color: #502050;
       border-radius: 8px;
+      margin-top: 16px;
     }
     &-card-3 {
       width: 350px;
       height: 234px;
       background-color: #502050;
       border-radius: 8px;
+      margin-bottom: 20px;
+      margin-top: 32px;
     }
   }
 }
