@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   get 'design/mentor/profile-card-component', to: 'mentor#profile_card_component'
   get 'design/mentor/faq-accordion-card', to: 'mentor#faq_accordion_card'
   get 'design/mentor/social-proof-section', to: 'mentor#social_proof_section'
+  get 'design/mentor/article-preview-component', to: 'mentor#article_preview_component'
 end
