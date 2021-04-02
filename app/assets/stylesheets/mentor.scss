@@ -318,7 +318,55 @@
       height: 280px;
       width: 285px;
       background-image: url(drawers.jpg);
+      background-position: 0px 0px;
+      background-size: 350px;
+    }
+    &-text {
+      height: 280px;
+      width: 445px;
+      padding: 36px 40px 30px 40px;
+      &-main {
+        font-family: 'Manrope Bold', sans-serif;
+        font-size: 20px;
+        color: #48556A;
+        padding: 0px 0px 20px 0px;
+        line-height: 137%;
+      }
+      &-secondary {
+        font-family: 'Manrope Medium', sans-serif;
+        font-size: 13px;
+        color: #6D7F97;
+        padding: 0px 0px 20px 0px;
+        line-height: 153%;
+      }
+      &-photo {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        background-image: url(avatar-michelle.jpg);
+        background-size: 40px;
+      }
+      &-label {
+        margin: 0px 20px 0px 17px;
+        &-name {
+          font-family: 'Manrope Bold', sans-serif;
+          font-size: 13px;
+          color: #48556A;
+          margin-bottom: 6px;
+        }
+        &-date {
+          font-family: 'Manrope Medium', sans-serif;
+          font-size: 13px;
+          color: #6D7F97;
+        }
+      }
+      &-share {
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        background-color: #ecf2f8;
+        margin-top: 4px;
+      }
     }
   }
-
 }
