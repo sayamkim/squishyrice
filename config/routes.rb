@@ -19,4 +19,5 @@ Rails.application.routes.draw do
   get 'design/mentor/faq-accordion-card', to: 'mentor#faq_accordion_card'
   get 'design/mentor/social-proof-section', to: 'mentor#social_proof_section'
   get 'design/mentor/article-preview-component', to: 'mentor#article_preview_component'
+  get 'design/mentor/coding-bootcamp-testimonials-slider', to: 'mentor#coding_bootcamp_testimonials_slider'
 end
