@@ -374,6 +374,30 @@
 .coding-bootcamp-testimonials {
   height: 800px;
   width: 1440px;
-  border-radius: 8px;
-  border: 1px solid black;
+  &-box {
+    width: 1112px;
+    height: 540px;
+  }
+  &-quote {
+    // position: absolute;
+    width: 330px;
+    height: 220px;
+    font-family: 'Inter Light', sans-serif;
+    font-size: 32px;
+    color: #202046;
+    line-height: 136%;
+  }
+  &-photo {
+    height: 540px;
+    width: 540px;
+    border-radius: 5px;
+    background-image: url(image-tanya.jpg);
+  }
+  &-button {
+    width: 112px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #C4C4C4;
+
+  }
 }
