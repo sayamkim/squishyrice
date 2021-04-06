@@ -374,9 +374,17 @@
 .coding-bootcamp-testimonials {
   height: 800px;
   width: 1440px;
+  border: 1px solid black;
   &-box {
+    position: relative;
     width: 1112px;
     height: 540px;
+  }
+  &-copy {
+    position: absolute;
+    width: 635px;
+    height: 220px;
+    margin-left: 170px;
   }
   &-quote {
     // position: absolute;
@@ -387,13 +395,37 @@
     color: #202046;
     line-height: 136%;
   }
+  &-copy-name {
+    margin-top: 50px;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 20px;
+    color: #202046;
+    margin-right: 10px;
+  }
+  &-copy-role {
+    margin-top: 50px;
+    font-family: 'Inter SemiBold', sans-serif;
+    font-size: 20px;
+    color: #BABACF;
+  }
+  &-image {
+    position: relative;
+    width: 540px;
+    height: 568px;
+    margin-right: 165px;
+    z-index: -1;
+  }
   &-photo {
+    position: absolute;
     height: 540px;
     width: 540px;
     border-radius: 5px;
     background-image: url(image-tanya.jpg);
   }
   &-button {
+    position: absolute;
+    margin-top: 514px;
+    margin-left: 60px;
     width: 112px;
     height: 56px;
     border-radius: 28px;
