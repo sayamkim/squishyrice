@@ -374,7 +374,7 @@
 .coding-bootcamp-testimonials {
   height: 800px;
   width: 1440px;
-  border: 1px solid black;
+  // border: 1px solid black;
   &-box {
     position: relative;
     width: 1112px;
@@ -420,6 +420,7 @@
     height: 540px;
     width: 540px;
     border-radius: 5px;
+    box-shadow: 0px 40px 30px 0px rgba(32,32,70,.15);
     background-image: url(image-tanya.jpg);
   }
   &-button {
@@ -429,7 +430,10 @@
     width: 112px;
     height: 56px;
     border-radius: 28px;
-    background-color: #C4C4C4;
-
+    background-color: #FFF;
+  }
+  &-svg {
+    position: absolute;
+    z-index: -5;
   }
 }
