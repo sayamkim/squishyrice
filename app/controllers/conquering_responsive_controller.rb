@@ -1,0 +1,2 @@
+class ConqueringResponsiveController < ApplicationController
+end
