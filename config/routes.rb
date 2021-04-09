@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'design/mentor/coding-bootcamp-testimonials-slider', to: 'mentor#coding_bootcamp_testimonials_slider'
 
   get 'design/responsive/challenge-1', to: 'conquering_responsive#challenge_1'
+  get 'design/responsive/challenge-2', to: 'conquering_responsive#challenge_2'
 
   get 'projects', to: 'projects#index'
   get 'projects/data-viz', to: 'projects#data_viz'
