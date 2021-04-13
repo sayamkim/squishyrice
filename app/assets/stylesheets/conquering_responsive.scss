@@ -68,3 +68,25 @@
     background: #38CFD9;
   }
 }
+
+.c4-container {
+  font-family: 'Roboto';
+  font-size: 1.3em;
+  width: 80%;
+  max-width: 1800px;
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+
+.c4-col {
+  > h2 {
+    font-family: 'Roboto Black';
+    font-size: 2em;
+    color: #87629a
+  }
+  > p {
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0em 1.5em;
+  }
+}
