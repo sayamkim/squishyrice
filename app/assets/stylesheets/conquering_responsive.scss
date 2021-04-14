@@ -76,13 +76,38 @@
   max-width: 1800px;
   padding: 100px 0px;
   margin: 0 auto;
+  &-bottom {
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    padding: 100px 0px;
+    background: #136c72;
+  }
 }
 
 .c4-col {
   > h2 {
     font-family: 'Roboto Black';
     font-size: 2em;
-    color: #87629a
+    color: #87629a;
+  }
+  > p {
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0em 1.5em;
+  }
+}
+
+.c4-content-bottom {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.c4-col-bottom {
+  color: #FFF;
+  // padding: 0em 2.25em;
+  > h2 {
+    font-family: 'Roboto Black';
+    font-size: 2em;
   }
   > p {
     line-height: 1.5em;
