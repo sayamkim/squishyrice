@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get 'design/responsive/challenge-2', to: 'conquering_responsive#challenge_2'
   get 'design/responsive/challenge-3', to: 'conquering_responsive#challenge_3'
   get 'design/responsive/challenge-4', to: 'conquering_responsive#challenge_4'
+  get 'design/responsive/challenge-5', to: 'conquering_responsive#challenge_5'
 
   get 'projects', to: 'projects#index'
   get 'projects/data-viz', to: 'projects#data_viz'
